@@ -1,0 +1,253 @@
+* {
+  border: 0;
+  margin: 0;
+}
+input {
+  border-radius: 0.6rem;
+  width: 45rem !important;
+  height: 3rem;
+}
+
+.navbar-container {
+  background-color: #ffffff !important;
+}
+
+.navbar-container img {
+  width: 4rem;
+}
+
+.navbar-brand {
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.navbar-brand h1 {
+  color: rgb(255, 210, 61);
+}
+.navbar-brand h1:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.search {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 40rem;
+  background-repeat: no-repeat;
+  background-size: 2.5rem;
+  background-position: center;
+  background-position: left;
+}
+
+.navbar-container input {
+  border: 1px solid #cac9c9 !important;
+}
+
+.storeCard {
+  margin-right: 4rem;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  background-color: rgb(255, 210, 61);
+  color: #000000;
+}
+
+.storeCard:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.home-banner {
+  width: 67%;
+}
+.home-banner img {
+  width: 100%;
+  margin-top: 2rem;
+  margin-left: 7.5rem;
+}
+
+.title-restaurants {
+  margin-left: 8.1rem;
+  margin-top: 4rem;
+  width: 20%;
+}
+
+.options-restaurantes {
+  margin-top: 2rem;
+  display: flex;
+  display: inline-flex;
+  margin-left: 5rem;
+}
+.options-restaurantes img {
+  width: 6rem;
+  border-radius: 50%;
+  margin-left: -1rem;
+  margin-top: -1rem;
+  border: 1px solid #c7c5c5;
+}
+
+.options-restaurantes a {
+  margin-right: 2rem;
+}
+
+.options-restaurantes div {
+  padding: 2rem;
+  border-radius: 95px;
+  margin-left: 3rem;
+  width: 8rem;
+  height: 15rem;
+}
+.options-restaurantes div:hover {
+  padding: 2rem;
+  border-radius: 95px;
+  margin-left: 3rem;
+  width: 8rem;
+  height: 15rem;
+  background-color: rgb(255, 210, 61);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.bar {
+  margin-left: -1.2rem;
+}
+.burger {
+  margin-left: -0.5rem;
+}
+.options-restaurantes strong {
+  margin-left: 1rem;
+  font-size: 17px;
+}
+
+.order-container {
+  border-left: 1px solid #cac9c9;
+  float: right;
+  margin-top: -48rem;
+  width: 32rem;
+  height: 60rem;
+}
+
+.order-container h2 {
+  margin-left: 6rem;
+}
+
+.order-container img {
+  height: 3rem;
+}
+
+.addres-time {
+  width: 30rem;
+  text-align: center;
+  height: 13rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  background-color: rgb(80, 62, 157);
+  border: 1px solid #9e83bd;
+  border-radius: 3rem;
+}
+
+.addres {
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+.addres a {
+  color: rgb(255, 210, 61);
+  text-decoration: none;
+  padding-left: 2rem;
+}
+
+.addres span {
+  font-size: 1.5rem;
+  color: rgb(230, 227, 227);
+  margin-top: 2rem;
+  padding-right: 4rem;
+}
+
+.time {
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+.time a {
+  color: rgb(255, 210, 61);
+  text-decoration: none;
+  padding-left: 2rem;
+}
+
+.time span {
+  font-size: 1.3rem;
+  color: rgb(230, 227, 227);
+  padding-right: 4rem;
+}
+
+.OrderByID {
+  font-size: 1rem;
+  font-size: medium;
+  color: #000000;
+  margin-top: 3rem;
+}
+.OrderByID img {
+  margin-left: 2.4rem;
+}
+.OrderByID span {
+  padding: 1.5rem;
+}
+
+.total-delivery {
+  margin-top: 2rem;
+}
+
+.total-delivery span {
+  font-size: 2rem;
+  font-style: normal;
+  color: #000000;
+  padding-inline-start: 8.7rem;
+}
+
+.checkout {
+  background-color: rgb(255, 210, 61);
+  width: 16rem;
+  height: 7.3rem;
+  margin-left: 14.6rem;
+  border-radius: 25px 0px 0px 25px;
+  border: 1px solid #c7c5c5;
+  font-size: 1.8rem;
+}
+.checkout:hover {
+  background-color: rgb(255, 210, 61);
+  -moz-transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  transform: scale(1.1);
+}
+.checkout a {
+  color: black;
+  text-decoration: none;
+}
+.checkout div {
+  padding: 2.2rem;
+}
+
+.display {
+  display: inline-flex;
+  margin-top: 2rem;
+}
+.restaurants-all {
+  width:32rem;
+  border-radius: 2rem;
+  margin-left: 3rem;
+}
+
+.restaurants-all ul li{
+  display: inline-block;
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: bold;
+  margin: auto;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+.restaurants-all span {
+  color: black !important;
+}
+.restaurants-all li {
+  color: rgb(206, 205, 205)
+}
